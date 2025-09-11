@@ -4,12 +4,12 @@
 
 Microsoft recently updated their available Debian for WSL image to Debian 13 (Trixie).
 
-```powershell
+```
 wsl --install Debian
 ```
 
 If you eventually want that to be your default for WSL:
-```powershell
+```
 wsl --set-default Debian
 ```
 
@@ -31,8 +31,8 @@ Windows Terminal works pretty well with a couple tweaks.  Alacritty is also a gr
 1. Install Alacritty<br>
    A. By downloading an install from their [website](https://alacritty.org/) <br>
    B. via winget (my preference), e.g. <br>
-       ```powershell
-       winget install Alacritty.Alacritty
+       ```
+        winget install Alacritty.Alacritty
        ```
 2. Download an install a [NerdFont](https://www.nerdfonts.com/) on your Windows system, same as you would do for Windows Terminal<br>
    A. [MesloLG Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Meslo.zip) is an easy choice, but use whatever you like.<br>
