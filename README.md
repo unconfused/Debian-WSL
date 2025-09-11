@@ -80,7 +80,7 @@ sudo apt install fzf bat fd-find git acl tmux neovim 7zip zip lazygit curl wget 
 3. Check out [their list of themes](https://ohmyposh.dev/docs/themes) and pick one!
 4. Add the cached theme to your .bashrc so that it loads every time: <br>
     ```nvim ~/.bashrc``` <br>
-   Add this at or near the bottom (for the M365Princess theme:
+   Add this at or near the bottom (for the M365Princess theme, but pick your own, man!):
     ```bash
     export EDITOR=nvim
     eval "$(oh-my-posh init bash --config /home/evan/.cache/oh-my-posh/themes/M365Princess.omp.json)"
