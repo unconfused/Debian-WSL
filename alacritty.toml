@@ -1,0 +1,24 @@
+[general]
+import = ["%APPDATA%/alacritty/onehalfdark.toml",]
+
+[window]
+opacity = 0.95
+dimensions = { columns = 120, lines = 40 }
+padding.x = 10
+padding.y = 10
+decorations = "Full"
+decorations_theme_variant = "Light" # "Dark"
+title = "Alacritty"
+dynamic_title = true
+
+[font]
+normal.family = "MesloLGM Nerd Font"
+bold.family = "MesloLGM Nerd Font"
+italic.family = "MesloLGM Nerd Font"
+bold_italic.family = "MesloLGM Nerd Font"
+size = 11.0
+builtin_box_drawing = true 
+
+[scrolling]
+history = 20000
+multiplier = 3
