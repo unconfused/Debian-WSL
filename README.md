@@ -19,7 +19,7 @@ Windows Terminal works pretty well with a couple tweaks.  Alacritty is also a gr
 
 ### For Windows Terminal (should be pre-installed on Windows 11:
 1. Download an install a [NerdFont](https://www.nerdfonts.com/) on your Windows system<br>
-   A. [MesloLG Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Meslo.zip) is an easy choice, but use whatever you like.
+   A. [MesloLG Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Meslo.zip) is an easy choice, but use whatever you like.<br>
    B. [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip) is also a great choice.
 3. Change your settings for your Debian -> Appearance to fit the theme and your newly installed MesloLG font. I'm fond of the One Half Dark theme.<br>
     <img width="440" height="240" alt="image" src="https://github.com/user-attachments/assets/a4bb11ce-a4db-49da-b734-1cfdbe125285" />
@@ -35,7 +35,7 @@ Windows Terminal works pretty well with a couple tweaks.  Alacritty is also a gr
        winget install Alacritty.Alacritty
        ```
 2. Download an install a [NerdFont](https://www.nerdfonts.com/) on your Windows system, same as you would do for Windows Terminal<br>
-   A. [MesloLG Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Meslo.zip) is an easy choice, but use whatever you like.
+   A. [MesloLG Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Meslo.zip) is an easy choice, but use whatever you like.<br>
    B. [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip) is also a great choice.
 4. Open this location for the config files: ```%APPDATA%\alacritty\```
 5. Download my [onehalfdark.toml](https://github.com/unconfused/Debian-WSL/blob/main/onehalfdark.toml) file, if you want that style.  Put it with the other config files.
