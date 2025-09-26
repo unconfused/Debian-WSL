@@ -84,7 +84,87 @@ sudo apt install fzf bat fd-find git acl tmux neovim 7zip zip lazygit curl wget 
     ```bash
     export EDITOR=nvim
     eval "$(oh-my-posh init bash --config /home/evan/.cache/oh-my-posh/themes/M365Princess.omp.json)"
-    ``` 
+    ```
+5. This is my Catppuccin knock-off:
+   ```bash
+   {
+     "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+     "palette": {
+           "os": "#ACB0BE",
+           "closer": "p:os",
+           "pink": "#F5C2E7",
+           "lavender": "#B4BEFE",
+           "blue":  "#89B4FA"
+     },
+     "blocks": [
+       {
+         "alignment": "left",
+         "segments": [
+           {
+             "foreground": "p:os",
+             "style": "plain",
+             "template": "{{.Icon}} ",
+             "type": "os"
+           },
+           {
+             "foreground": "p:blue",
+             "style": "plain",
+             "template": "{{ .UserName }}@{{ .HostName }} ",
+             "type": "session"
+           },
+           {
+             "foreground": "p:pink",
+             "properties": {
+               "folder_icon": "..\ue5fe..",
+               "home_icon": "~",
+               "style": "agnoster_short"
+             },
+             "style": "plain",
+             "template": "{{ .Path }} ",
+             "type": "path"
+           },
+           {
+             "foreground": "p:lavender",
+             "properties": {
+               "branch_icon": "\ue725 ",
+               "cherry_pick_icon": "\ue29b ",
+               "commit_icon": "\uf417 ",
+               "fetch_status": false,
+               "fetch_upstream_icon": false,
+               "merge_icon": "\ue727 ",
+               "no_commits_icon": "\uf0c3 ",
+               "rebase_icon": "\ue728 ",
+               "revert_icon": "\uf0e2 ",
+               "tag_icon": "\uf412 "
+             },
+             "template": "{{ .HEAD }} ",
+             "style": "plain",
+             "type": "git"
+           },
+           {
+             "foreground": "#a6e3a1",
+             "properties": {
+               "time_format": "15:04"
+             },
+             "style": "plain",
+             "template": " \u2665 {{ .CurrentDate | date .Format }} ",
+             "trailing_diamond": "\ue0b0",
+             "type": "time"
+           },
+           {
+             "style": "plain",
+             "foreground": "p:closer",
+             "template": "\uf105",
+             "type": "text"
+           }
+         ],
+         "type": "prompt"
+       }
+     ],
+     "final_space": true,
+     "version": 3
+   }
+   ```
 
 ## Make tmux prettier
 
